@@ -16,15 +16,18 @@
     h2 {font-size: 3.5rem;font-style: normal;font-weight: 600;line-height: 35px; color:var(--color-1);}
 
 /* properties for each elements */
+    /* fixed header */
+    .navbar-container {background: var(--bg); position: sticky; top: -26px;padding-top: 26px; z-index: 100;}
+    /* navigation bar */
+    .navbar { display: flex; align-items: center; padding: 12px 0;}
+    .site-logo {width: 107px;height: 24px; background: url(../assets/img/sitelogo.svg) center / cover no-repeat;}
+    .navigation ul.list {display: flex; gap: 28px; margin-left: 64px; align-items: center;}
+    .action {margin-left: auto; display: flex; align-items: center; gap: 18px;}
+/* 48 - 12 = 36 */
     /* header */
-    .header {height: 100vh;background: var(--bg); min-height: 700px; max-height: 1000px; position: relative; overflow: hidden;}
-        /* navigation bar */
-        .navbar {  display: flex; align-items: center; padding-top: 48px;}
-        .site-logo {width: 107px;height: 24px; background: url(../assets/img/sitelogo.svg) center / cover no-repeat;}
-        .navigation ul.list {display: flex; gap: 28px; margin-left: 64px; align-items: center;}
-        .action {margin-left: auto; display: flex; align-items: center; gap: 18px;}
+    .hero-container {height: 100vh;background: var(--bg); min-height: 700px; max-height: 1000px; position: relative; overflow: hidden;}
         /* hero landing */
-        .hero {margin-top: 130px;}
+        .hero {padding-top: 130px;}
         /* 8 30 40 */
         .hero .landing {width: 50%; min-width: 600px; position: relative; z-index: 2; filter: drop-shadow(2px 4px 6px rgba(255 255 255 / 0.75));}
         .hero .small-title {font-size: 18px;font-weight: 500;}

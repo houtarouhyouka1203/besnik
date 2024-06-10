@@ -1,4 +1,5 @@
 /* common class */
+    
     .content-margin {margin-left: auto; margin-right: auto; width: calc(100% - 48px); max-width: 1110px; padding: 0 24px;}
     .text-format-1 {font-size: 1.6rem; font-weight: 500;}
     .hyperlink {font-weight: 500; opacity: 0.8; transition: 0.3s;}
@@ -13,6 +14,7 @@
 
     p.desc {font-size: 16px;font-weight: 400}
     h2 {font-size: 3.5rem;font-style: normal;font-weight: 600;line-height: 35px; color:var(--color-1);}
+    
 /* properties for each elements */
     /* header */
     .header {height: 100vh;background: var(--bg); min-height: 700px; max-height: 1000px; position: relative; overflow: hidden;}
@@ -38,7 +40,7 @@
             .client .container .wrapper .content {margin-right: auto;gap: 23px;}
             .client .container .wrapper .content .logos-small {width: 107px;height: 24px; background: url(../assets/img/sitelogo.svg) center / cover no-repeat;}
             /* client's part /// review // real */
-            .client .container .wrapper .review {margin-left: auto; align-items: flex-end;gap: 16px;}
+            .client .container .wrapper .review {margin-left: auto; align-items: flex-end;gap: 4px;}
             .client .container .wrapper .review .stars{display: flex; gap: 20px;}
             .stars .icon {width: 20px;height: 20px;;background: url(../assets/img/star.svg) center / contain no-repeat;}
             .client .container .wrapper .review p{text-align: right;}

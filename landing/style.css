@@ -14,7 +14,7 @@
 
     p.desc {font-size: 16px;font-weight: 400}
     h2 {font-size: 3.5rem;font-style: normal;font-weight: 600;line-height: 35px; color:var(--color-1);}
-    
+
 /* properties for each elements */
     /* header */
     .header {height: 100vh;background: var(--bg); min-height: 700px; max-height: 1000px; position: relative; overflow: hidden;}
@@ -40,8 +40,8 @@
             .client .container .wrapper .content {margin-right: auto;gap: 23px;}
             .client .container .wrapper .content .logos-small {width: 107px;height: 24px; background: url(../assets/img/sitelogo.svg) center / cover no-repeat;}
             /* client's part /// review // real */
-            .client .container .wrapper .review {margin-left: auto; align-items: flex-end;gap: 4px;}
-            .client .container .wrapper .review .stars{display: flex; gap: 20px;}
+            .client .container .wrapper .review {margin-left: auto; align-items: flex-end;gap: 16px;}
+            .client .container .wrapper .review .stars{display: flex; gap: 4px;}
             .stars .icon {width: 20px;height: 20px;;background: url(../assets/img/star.svg) center / contain no-repeat;}
             .client .container .wrapper .review p{text-align: right;}
             
